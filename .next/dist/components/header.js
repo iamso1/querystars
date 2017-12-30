@@ -65,7 +65,7 @@ var Header = function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 12
         }
-      }, 'Home')), _react2.default.createElement(_link2.default, { href: '/ocr', __source: {
+      }, 'Home')), _react2.default.createElement(_link2.default, { href: '/start', __source: {
           fileName: _jsxFileName,
           lineNumber: 14
         }

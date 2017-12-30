@@ -16,6 +16,10 @@ var _header = require('../components/header');
 
 var _header2 = _interopRequireDefault(_header);
 
+var _todo = require('../components/todo/todo');
+
+var _todo2 = _interopRequireDefault(_todo);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _jsxFileName = '/Users/hsinhan/Documents/project/onlineProject/ocr-tools/pages/learn.js?entry';
@@ -24,23 +28,28 @@ exports.default = function () {
   return _react2.default.createElement('div', {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     }
   }, _react2.default.createElement(_layout2.default, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     }
   }, _react2.default.createElement(_header2.default, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     }
   }), _react2.default.createElement('div', {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     }
-  }, 'hello')));
+  }, 'hello'), _react2.default.createElement(_todo2.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  })));
 };
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2xlYXJuLmpzIl0sIm5hbWVzIjpbIkxheW91dCIsIkhlYWRlciJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBLEFBQU8sQUFBWTs7OztBQUNuQixBQUFPLEFBQVksQUFFbkI7Ozs7Ozs7O2tCQUFlLFlBQUE7eUJBQ2IsY0FBQTs7Z0JBQUE7a0JBQUEsQUFDRTtBQURGO0FBQUEsR0FBQSxrQkFDRSxBQUFDOztnQkFBRDtrQkFBQSxBQUNFO0FBREY7QUFBQSxxQkFDRSxBQUFDOztnQkFBRDtrQkFERixBQUNFLEFBQ0E7QUFEQTtBQUFBLHNCQUNBLGNBQUE7O2dCQUFBO2tCQUFBO0FBQUE7QUFBQSxLQUpTLEFBQ2IsQUFDRSxBQUVFO0FBSk4iLCJmaWxlIjoibGVhcm4uanM/ZW50cnkiLCJzb3VyY2VSb290IjoiL1VzZXJzL2hzaW5oYW4vRG9jdW1lbnRzL3Byb2plY3Qvb25saW5lUHJvamVjdC9vY3ItdG9vbHMifQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2xlYXJuLmpzIl0sIm5hbWVzIjpbIkxheW91dCIsIkhlYWRlciIsIlRvZG8iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBQSxBQUFPLEFBQVk7Ozs7QUFDbkIsQUFBTyxBQUFZOzs7O0FBQ25CLEFBQU8sQUFBVSxBQUVqQjs7Ozs7Ozs7a0JBQWUsWUFBQTt5QkFDYixjQUFBOztnQkFBQTtrQkFBQSxBQUNFO0FBREY7QUFBQSxHQUFBLGtCQUNFLEFBQUM7O2dCQUFEO2tCQUFBLEFBQ0U7QUFERjtBQUFBLHFCQUNFLEFBQUM7O2dCQUFEO2tCQURGLEFBQ0UsQUFDQTtBQURBO0FBQUEsc0JBQ0EsY0FBQTs7Z0JBQUE7a0JBQUE7QUFBQTtBQUFBLEtBRkYsQUFFRSxBQUNBLDBCQUFBLEFBQUM7O2dCQUFEO2tCQUxTLEFBQ2IsQUFDRSxBQUdFO0FBQUE7QUFBQTtBQUxOIiwiZmlsZSI6ImxlYXJuLmpzP2VudHJ5Iiwic291cmNlUm9vdCI6Ii9Vc2Vycy9oc2luaGFuL0RvY3VtZW50cy9wcm9qZWN0L29ubGluZVByb2plY3Qvb2NyLXRvb2xzIn0=
