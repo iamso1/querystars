@@ -11,14 +11,11 @@ export default class Header extends Component {
         <Link href="/">
           <a style={linkStyle}>Home</a>
         </Link>
-        <Link href="/start">
+        <Link href="/learn">
           <a style={linkStyle}>Start</a>
         </Link>
         <Link href="/about">
           <a style={linkStyle}>About Me</a>
-        </Link>
-        <Link href="/learn">
-          <a style={linkStyle}>Test</a>
         </Link>
         <hr />
       </div>
