@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Repolist from './repolist';
 import Querybar from './querybar';
+import Addrepoinfo from './addrepoinfo';
 
 import axios from 'axios';
 
@@ -58,6 +59,7 @@ export default class Querystar extends Component {
           queryStars={this.queryStars}
           addRepo={this.addRepo}
         />
+        <Addrepoinfo addRepo={this.addRepo} />
         <hr />
         <Querybar onChangeQueryStr={this.onChangeQueryStr} />
       </div>

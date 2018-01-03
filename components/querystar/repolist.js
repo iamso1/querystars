@@ -70,7 +70,6 @@ export default class Repolist extends Component {
           {this.state.stars} ⭐️
         </p>
         <div>{repos}</div>
-        <Addrepoinfo addRepo={this.props.addRepo} />
       </div>
     );
   }
