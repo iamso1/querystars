@@ -1,5 +1,5 @@
-import Layout from '../components/layout';
-import Header from '../components/header';
+import Layout from '../src/components/layout';
+import Header from '../src/components/header';
 import Querystar from '../components/querystar/querystar';
 
 export default () => (
