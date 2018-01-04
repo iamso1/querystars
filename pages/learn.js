@@ -1,6 +1,6 @@
 import Layout from '../src/components/layout';
 import Header from '../src/components/header';
-import Querystar from '../components/querystar/querystar';
+import Querystar from '../src/components/querystar/querystar';
 
 export default () => (
   <div>
